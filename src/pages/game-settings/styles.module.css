@@ -1,0 +1,143 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.setting-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--color-text-primary);
+}
+.arrow {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.text-of-number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  border-radius: 8px;
+  border: 2px solid var(--color-brand-primary);
+  cursor: pointer;
+}
+
+.button-wrapper {
+  margin-top: 50px;
+  width: 220px;
+  height: 60px;
+}
+
+.yellow-text {
+  color: var(--color-brand-primary);
+  font-size: 24px;
+}
+
+.long-arrows-wrapper {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.arrow-wrapper {
+  position: relative;
+  width: 80px;
+  cursor: pointer;
+}
+
+.long-arrow {
+  width: 80px;
+  height: 70px;
+}
+
+.left-arrow-text {
+  position: absolute;
+  top: -8px;
+  right: 8px;
+  font-size: 14px;
+}
+
+.right-arrow-text {
+  position: absolute;
+  top: -8px;
+  left: 8px;
+  font-size: 14px;
+}
+
+@media (max-width: 680px) {
+  .text {
+    font-size: 14px;
+    gap: 8px;
+  }
+
+  .setting-wrapper {
+    gap: 8px;
+  }
+
+  .arrow {
+    width: 20px;
+    height: 20px;
+  }
+
+  .text-of-number {
+    height: 40px;
+    width: 40px;
+    font-size: 16px;
+  }
+
+  .yellow-text {
+    font-size: 18px;
+  }
+
+  .button-wrapper {
+    margin-top: 30px;
+    width: 160px;
+    height: 50px;
+  }
+
+  .long-arrows-wrapper {
+    width: 82%;
+  }
+
+  .long-arrow {
+    width: 60px;
+    height: 50px;
+  }
+
+  .arrow-wrapper {
+    width: 60px;
+  }
+
+  .right-arrow-text {
+    font-size: 12px;
+  }
+
+  .left-arrow-text {
+    font-size: 12px;
+  }
+}

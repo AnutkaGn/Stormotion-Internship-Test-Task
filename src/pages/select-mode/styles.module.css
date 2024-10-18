@@ -1,0 +1,80 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.mode-text {
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  margin-bottom: 50px;
+}
+
+.mode-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.mode-button {
+  width: 220px;
+  height: 60px;
+}
+
+.arrow-wrapper {
+  position: absolute;
+  width: 80px;
+  cursor: pointer;
+  top: 20px;
+  left: 34px;
+}
+
+.long-arrow {
+  width: 80px;
+  height: 70px;
+}
+
+.arrow-text {
+  position: absolute;
+  top: -8px;
+  right: 8px;
+  font-size: 14px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-text-primary);
+}
+
+@media (max-width: 680px) {
+  .mode-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .mode-button-wrapper {
+    gap: 20px;
+  }
+
+  .mode-button {
+    width: 120px;
+    height: 50px;
+  }
+
+  .long-arrow {
+    width: 60px;
+    height: 50px;
+  }
+
+  .arrow-wrapper {
+    width: 60px;
+  }
+
+  .arrow-text {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,17 @@
+:root {
+  /* Background Colors */
+  --color-background-primary: #292929;
+  --color-background-secondary: #212121;
+  --color-overlay: #000000df;
+
+  /* Typography Colors */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #7e8082;
+
+  /* Brand Colors */
+  --color-brand-primary: #ffae00;
+  --color-brand-primary-hover: #c78800;
+
+  /* Shadow */
+  --box-shadow: 0px 0px 25px 0px #00000080;
+}

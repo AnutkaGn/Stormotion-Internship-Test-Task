@@ -1,0 +1,31 @@
+.score-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.score-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.score-container-right {
+  align-items: flex-end;
+}
+
+.score-container-left {
+  align-items: flex-start;
+}
+
+@media (max-width: 680px) {
+  .score-text {
+    font-size: 14px;
+  }
+  
+  .score-container-right,
+  .score-container-left {
+    align-items: center;
+  }
+}
